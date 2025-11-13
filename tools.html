@@ -49,6 +49,16 @@
 </head>
 <body>
 
+  <!-- Nmap Recon HackerProf -->
+<div class="tool-card">
+  <h3>🔍 Nmap Recon HackerProf</h3>
+  <p>Modular Nmap scanning tool for ethical recon and awareness. Includes basic, full, stealth, service, and vuln scans.</p>
+  <a href="https://github.com/Himanshu9528-hacker/nmap-recon-scanner" target="_blank" class="btn">🔗 View on GitHub</a>
+  <button onclick="runNmapDemo()">🚀 Show Demo Output</button>
+  <div id="nmapOutput" class="output-box"></div>
+</div>
+
+
   <section class="tool-section">
     <h1>🧰 Hacker Tools</h1>
 
@@ -119,6 +129,13 @@
       output.style.display = 'block';
       output.innerText = `[16:27] Awareness Engine booting...\n[16:28] TraitMap v2.1 loaded\n[16:29] Clarity module activated.`;
     }
+
+    function runNmapDemo() {
+  const output = document.getElementById('nmapOutput');
+  output.style.display = 'block';
+  output.innerText = `[16:27] Nmap Recon HackerProf started...\n[16:28] Basic scan complete\n[16:29] Service and vulnerability modules executed\n[16:30] Results saved to scan_logs.txt`;
+}
+
   </script>
 
 </body>
