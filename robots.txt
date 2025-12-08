@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://himanshu9528-hacker.github.io/hackerprofessor-console/sitemap.xml
+
+Sitemap: https://himanshu-console.vercel.app/sitemap.xml
